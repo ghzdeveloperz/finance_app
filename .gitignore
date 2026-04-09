@@ -1,0 +1,153 @@
+########################################
+# 🔐 SECURITY (CRÍTICO)
+########################################
+
+.env
+.env.*
+!.env.example
+
+*.key
+*.pem
+*.p12
+*.jks
+*.keystore
+
+secrets.json
+google-services.json
+GoogleService-Info.plist
+
+########################################
+# 🧠 SYSTEM FILES
+########################################
+
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.lock
+
+########################################
+# 🧪 TEST / COVERAGE
+########################################
+
+coverage/
+*.lcov
+
+########################################
+# 🧱 BUILD OUTPUTS
+########################################
+
+build/
+dist/
+out/
+release/
+
+########################################
+# ⚙️ FLUTTER / DART
+########################################
+
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+**/doc/api/
+
+########################################
+# 📱 ANDROID
+########################################
+
+android/.gradle/
+android/app/build/
+android/build/
+
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+android/local.properties
+
+########################################
+# 🍎 IOS
+########################################
+
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/.last_build_id
+
+ios/Runner/GeneratedPluginRegistrant.*
+ios/Runner/Flutter.framework
+ios/Runner/App.framework
+
+ios/Flutter/Flutter.podspec
+
+########################################
+# 🌐 WEB
+########################################
+
+build/web/
+
+########################################
+# 🖥️ DESKTOP
+########################################
+
+linux/flutter/ephemeral/
+windows/flutter/ephemeral/
+macos/Flutter/ephemeral/
+
+########################################
+# 🧰 IDEs
+########################################
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+########################################
+# 🧠 CACHE / TEMP
+########################################
+
+.cache/
+tmp/
+temp/
+
+########################################
+# 📦 SUPABASE
+########################################
+
+# NÃO ignore migrations (isso é versionamento do banco)
+# mas ignore configs locais sensíveis
+
+supabase/.temp/
+supabase/.cache/
+supabase/.branches/
+
+########################################
+# 📊 LOGS
+########################################
+
+logs/
+*.log
+
+########################################
+# 🔍 DEBUG / ANALYTICS
+########################################
+
+debug/
+*.trace
+
+########################################
+# 🔐 TOKENS / SESSION (EXTRA)
+########################################
+
+session.json
+tokens.json
+auth_cache.json

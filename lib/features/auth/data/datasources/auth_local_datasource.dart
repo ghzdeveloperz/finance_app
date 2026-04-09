@@ -1,0 +1,3 @@
+class AuthLocalDataSource {
+  const AuthLocalDataSource();
+}
