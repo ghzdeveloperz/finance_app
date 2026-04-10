@@ -1,0 +1,207 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1110" height="2460" viewBox="0 0 1110 2460">
+<style>
+text { font-family: Inter, Segoe UI, Arial, sans-serif; font-size: 13px; fill: #e6edf3; }
+.folder { fill: #1f2937; stroke: #4b5563; stroke-width: 1; }
+.file { fill: #111827; stroke: #374151; stroke-width: 1; }
+.line { stroke: #6b7280; stroke-width: 1.5; fill: none; }
+.label-muted { fill: #93a4b8; font-size: 11px; }
+</style>
+<rect x="0" y="0" width="1110" height="2460" fill="#0b1220"/>
+<path class="line" d="M 250 58 C 274 58, 274 130, 300 130" />
+<path class="line" d="M 510 130 C 534 130, 534 202, 560 202" />
+<path class="line" d="M 770 202 C 794 202, 794 274, 820 274" />
+<path class="line" d="M 770 202 C 794 202, 794 346, 820 346" />
+<path class="line" d="M 510 130 C 534 130, 534 418, 560 418" />
+<path class="line" d="M 770 418 C 794 418, 794 490, 820 490" />
+<path class="line" d="M 510 130 C 534 130, 534 562, 560 562" />
+<path class="line" d="M 770 562 C 794 562, 794 634, 820 634" />
+<path class="line" d="M 510 130 C 534 130, 534 706, 560 706" />
+<path class="line" d="M 770 706 C 794 706, 794 778, 820 778" />
+<path class="line" d="M 250 58 C 274 58, 274 850, 300 850" />
+<path class="line" d="M 510 850 C 534 850, 534 922, 560 922" />
+<path class="line" d="M 770 922 C 794 922, 794 994, 820 994" />
+<path class="line" d="M 510 850 C 534 850, 534 1066, 560 1066" />
+<path class="line" d="M 770 1066 C 794 1066, 794 1138, 820 1138" />
+<path class="line" d="M 510 850 C 534 850, 534 1210, 560 1210" />
+<path class="line" d="M 770 1210 C 794 1210, 794 1282, 820 1282" />
+<path class="line" d="M 770 1210 C 794 1210, 794 1354, 820 1354" />
+<path class="line" d="M 770 1210 C 794 1210, 794 1426, 820 1426" />
+<path class="line" d="M 250 58 C 274 58, 274 1498, 300 1498" />
+<path class="line" d="M 510 1498 C 534 1498, 534 1570, 560 1570" />
+<path class="line" d="M 770 1570 C 794 1570, 794 1642, 820 1642" />
+<path class="line" d="M 770 1570 C 794 1570, 794 1714, 820 1714" />
+<path class="line" d="M 510 1498 C 534 1498, 534 1786, 560 1786" />
+<path class="line" d="M 770 1786 C 794 1786, 794 1858, 820 1858" />
+<path class="line" d="M 770 1786 C 794 1786, 794 1930, 820 1930" />
+<path class="line" d="M 510 1498 C 534 1498, 534 2002, 560 2002" />
+<path class="line" d="M 770 2002 C 794 2002, 794 2074, 820 2074" />
+<path class="line" d="M 770 2002 C 794 2002, 794 2146, 820 2146" />
+<path class="line" d="M 770 2002 C 794 2002, 794 2218, 820 2218" />
+<path class="line" d="M 250 58 C 274 58, 274 2290, 300 2290" />
+<path class="line" d="M 510 2290 C 534 2290, 534 2362, 560 2362" />
+<g>
+<rect class="folder" x="40" y="40" rx="10" ry="10" width="210" height="36" />
+<text x="52" y="62">📁 accounts</text>
+<text class="label-muted" x="52" y="92">accounts</text>
+</g>
+<g>
+<rect class="folder" x="300" y="112" rx="10" ry="10" width="210" height="36" />
+<text x="312" y="134">📁 data</text>
+<text class="label-muted" x="312" y="164">accounts/data</text>
+</g>
+<g>
+<rect class="folder" x="560" y="184" rx="10" ry="10" width="210" height="36" />
+<text x="572" y="206">📁 datasources</text>
+<text class="label-muted" x="572" y="236">accounts/data/datasources</text>
+</g>
+<g>
+<rect class="file" x="820" y="256" rx="10" ry="10" width="210" height="36" />
+<text x="832" y="278">📄 accounts_local_datasource.dart</text>
+<text class="label-muted" x="832" y="308">accounts/data/datasources/accounts_local_datasource.dart</text>
+</g>
+<g>
+<rect class="file" x="820" y="328" rx="10" ry="10" width="210" height="36" />
+<text x="832" y="350">📄 accounts_remote_datasource.dart</text>
+<text class="label-muted" x="832" y="380">accounts/data/datasources/accounts_remote_datasource.dart</text>
+</g>
+<g>
+<rect class="folder" x="560" y="400" rx="10" ry="10" width="210" height="36" />
+<text x="572" y="422">📁 dtos</text>
+<text class="label-muted" x="572" y="452">accounts/data/dtos</text>
+</g>
+<g>
+<rect class="file" x="820" y="472" rx="10" ry="10" width="210" height="36" />
+<text x="832" y="494">📄 financial_account_dto.dart</text>
+<text class="label-muted" x="832" y="524">accounts/data/dtos/financial_account_dto.dart</text>
+</g>
+<g>
+<rect class="folder" x="560" y="544" rx="10" ry="10" width="210" height="36" />
+<text x="572" y="566">📁 mappers</text>
+<text class="label-muted" x="572" y="596">accounts/data/mappers</text>
+</g>
+<g>
+<rect class="file" x="820" y="616" rx="10" ry="10" width="210" height="36" />
+<text x="832" y="638">📄 financial_account_mapper.dart</text>
+<text class="label-muted" x="832" y="668">accounts/data/mappers/financial_account_mapper.dart</text>
+</g>
+<g>
+<rect class="folder" x="560" y="688" rx="10" ry="10" width="210" height="36" />
+<text x="572" y="710">📁 repositories</text>
+<text class="label-muted" x="572" y="740">accounts/data/repositories</text>
+</g>
+<g>
+<rect class="file" x="820" y="760" rx="10" ry="10" width="210" height="36" />
+<text x="832" y="782">📄 accounts_repository_impl.dart</text>
+<text class="label-muted" x="832" y="812">accounts/data/repositories/accounts_repository_impl.dart</text>
+</g>
+<g>
+<rect class="folder" x="300" y="832" rx="10" ry="10" width="210" height="36" />
+<text x="312" y="854">📁 domain</text>
+<text class="label-muted" x="312" y="884">accounts/domain</text>
+</g>
+<g>
+<rect class="folder" x="560" y="904" rx="10" ry="10" width="210" height="36" />
+<text x="572" y="926">📁 entities</text>
+<text class="label-muted" x="572" y="956">accounts/domain/entities</text>
+</g>
+<g>
+<rect class="file" x="820" y="976" rx="10" ry="10" width="210" height="36" />
+<text x="832" y="998">📄 financial_account.dart</text>
+<text class="label-muted" x="832" y="1028">accounts/domain/entities/financial_account.dart</text>
+</g>
+<g>
+<rect class="folder" x="560" y="1048" rx="10" ry="10" width="210" height="36" />
+<text x="572" y="1070">📁 repositories</text>
+<text class="label-muted" x="572" y="1100">accounts/domain/repositories</text>
+</g>
+<g>
+<rect class="file" x="820" y="1120" rx="10" ry="10" width="210" height="36" />
+<text x="832" y="1142">📄 accounts_repository.dart</text>
+<text class="label-muted" x="832" y="1172">accounts/domain/repositories/accounts_repository.dart</text>
+</g>
+<g>
+<rect class="folder" x="560" y="1192" rx="10" ry="10" width="210" height="36" />
+<text x="572" y="1214">📁 usecases</text>
+<text class="label-muted" x="572" y="1244">accounts/domain/usecases</text>
+</g>
+<g>
+<rect class="file" x="820" y="1264" rx="10" ry="10" width="210" height="36" />
+<text x="832" y="1286">📄 create_account_usecase.dart</text>
+<text class="label-muted" x="832" y="1316">accounts/domain/usecases/create_account_usecase.dart</text>
+</g>
+<g>
+<rect class="file" x="820" y="1336" rx="10" ry="10" width="210" height="36" />
+<text x="832" y="1358">📄 get_accounts_usecase.dart</text>
+<text class="label-muted" x="832" y="1388">accounts/domain/usecases/get_accounts_usecase.dart</text>
+</g>
+<g>
+<rect class="file" x="820" y="1408" rx="10" ry="10" width="210" height="36" />
+<text x="832" y="1430">📄 sync_accounts_usecase.dart</text>
+<text class="label-muted" x="832" y="1460">accounts/domain/usecases/sync_accounts_usecase.dart</text>
+</g>
+<g>
+<rect class="folder" x="300" y="1480" rx="10" ry="10" width="210" height="36" />
+<text x="312" y="1502">📁 presentation</text>
+<text class="label-muted" x="312" y="1532">accounts/presentation</text>
+</g>
+<g>
+<rect class="folder" x="560" y="1552" rx="10" ry="10" width="210" height="36" />
+<text x="572" y="1574">📁 controllers</text>
+<text class="label-muted" x="572" y="1604">accounts/presentation/controllers</text>
+</g>
+<g>
+<rect class="file" x="820" y="1624" rx="10" ry="10" width="210" height="36" />
+<text x="832" y="1646">📄 accounts_controller.dart</text>
+<text class="label-muted" x="832" y="1676">accounts/presentation/controllers/accounts_controller.dart</text>
+</g>
+<g>
+<rect class="file" x="820" y="1696" rx="10" ry="10" width="210" height="36" />
+<text x="832" y="1718">📄 accounts_state.dart</text>
+<text class="label-muted" x="832" y="1748">accounts/presentation/controllers/accounts_state.dart</text>
+</g>
+<g>
+<rect class="folder" x="560" y="1768" rx="10" ry="10" width="210" height="36" />
+<text x="572" y="1790">📁 pages</text>
+<text class="label-muted" x="572" y="1820">accounts/presentation/pages</text>
+</g>
+<g>
+<rect class="file" x="820" y="1840" rx="10" ry="10" width="210" height="36" />
+<text x="832" y="1862">📄 account_details_page.dart</text>
+<text class="label-muted" x="832" y="1892">accounts/presentation/pages/account_details_page.dart</text>
+</g>
+<g>
+<rect class="file" x="820" y="1912" rx="10" ry="10" width="210" height="36" />
+<text x="832" y="1934">📄 accounts_page.dart</text>
+<text class="label-muted" x="832" y="1964">accounts/presentation/pages/accounts_page.dart</text>
+</g>
+<g>
+<rect class="folder" x="560" y="1984" rx="10" ry="10" width="210" height="36" />
+<text x="572" y="2006">📁 widgets</text>
+<text class="label-muted" x="572" y="2036">accounts/presentation/widgets</text>
+</g>
+<g>
+<rect class="file" x="820" y="2056" rx="10" ry="10" width="210" height="36" />
+<text x="832" y="2078">📄 account_balance_tile.dart</text>
+<text class="label-muted" x="832" y="2108">accounts/presentation/widgets/account_balance_tile.dart</text>
+</g>
+<g>
+<rect class="file" x="820" y="2128" rx="10" ry="10" width="210" height="36" />
+<text x="832" y="2150">📄 account_card.dart</text>
+<text class="label-muted" x="832" y="2180">accounts/presentation/widgets/account_card.dart</text>
+</g>
+<g>
+<rect class="file" x="820" y="2200" rx="10" ry="10" width="210" height="36" />
+<text x="832" y="2222">📄 account_sync_status.dart</text>
+<text class="label-muted" x="832" y="2252">accounts/presentation/widgets/account_sync_status.dart</text>
+</g>
+<g>
+<rect class="folder" x="300" y="2272" rx="10" ry="10" width="210" height="36" />
+<text x="312" y="2294">📁 providers</text>
+<text class="label-muted" x="312" y="2324">accounts/providers</text>
+</g>
+<g>
+<rect class="file" x="560" y="2344" rx="10" ry="10" width="210" height="36" />
+<text x="572" y="2366">📄 accounts_providers.dart</text>
+<text class="label-muted" x="572" y="2396">accounts/providers/accounts_providers.dart</text>
+</g>
+</svg>

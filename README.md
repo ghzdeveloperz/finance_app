@@ -146,3 +146,93 @@ Modo escuro
  Percepções
  Integração de Finanças Abertas
  Versão web
+
+
+# 🚀 Milestone 01 — Accounts Module (Core Functional)
+
+## 🎯 Objetivo
+Implementar o módulo de contas financeiras totalmente funcional, conectado ao backend (Supabase), seguindo Clean Architecture.
+
+---
+
+## 🧱 Estrutura implementada
+
+### Data Layer
+- Remote datasource conectado ao Supabase
+- Local datasource preparado para cache futuro
+- DTOs para transporte de dados
+- Mappers para conversão DTO → Entity
+- Repository implementation
+
+### Domain Layer
+- Entity: FinancialAccount
+- Repository (contrato)
+- UseCases:
+  - CreateAccountUseCase
+  - GetAccountsUseCase
+  - SyncAccountsUseCase (placeholder)
+
+### Presentation Layer
+- AccountsController (StateNotifier)
+- AccountsState (estrutura base)
+- Providers (injeção de dependência com Riverpod)
+
+### UI
+- AccountsPage
+- AccountDetailsPage
+- Widgets:
+  - AccountCard
+  - AccountBalanceTile
+  - AccountSyncStatus
+
+---
+
+## 🔐 Backend Integration
+
+- Integração com Supabase
+- Uso de `auth.uid()` via RLS
+- Dados isolados por usuário
+- Persistência real no banco
+
+---
+
+## ⚙️ Funcionalidades implementadas
+
+- Criar conta financeira
+- Listar contas do usuário
+- Atualização automática após criação
+- Estado gerenciado via Riverpod
+
+---
+
+## 🧠 Arquitetura aplicada
+
+Fluxo completo:
+
+UI → Controller → UseCase → Repository → DataSource → Supabase
+
+Separação clara de responsabilidades:
+- UI não contém regra de negócio
+- Domain independente de frameworks
+- Data isolada da UI
+
+---
+
+## 📊 Resultado
+
+- Módulo 100% funcional
+- Backend conectado
+- Estrutura escalável
+- Base pronta para:
+  - Transactions
+  - Reports
+  - Open Finance
+
+---
+
+## 🚀 Próximo passo
+
+Milestone 02:
+- Integração do módulo Accounts no Dashboard
+- Exibição de saldo total
+- UX real (lista + criação + feedback visual)
