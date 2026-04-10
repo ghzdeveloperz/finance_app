@@ -236,3 +236,97 @@ Milestone 02:
 - Integração do módulo Accounts no Dashboard
 - Exibição de saldo total
 - UX real (lista + criação + feedback visual)
+
+
+# 🚀 Milestone 02 — Dashboard Functional (Integrated with Backend)
+
+## 🎯 Objetivo
+
+Implementar o dashboard funcional consumindo dados reais do backend (Supabase), exibindo informações consolidadas do usuário.
+
+---
+
+## 🧱 Estrutura implementada
+
+### Data Layer
+
+* DashboardRemoteDatasource (integração com Supabase)
+* DTOs para resumo do dashboard
+* Mapper para conversão DTO → Entity
+* Repository implementation
+
+### Domain Layer
+
+* Entity: DashboardSummary
+* Repository (contrato)
+* UseCase:
+
+  * GetDashboardSummaryUseCase
+
+### Presentation Layer
+
+* DashboardController (StateNotifier)
+* DashboardState (gerenciamento de estado)
+* Providers (injeção de dependência com Riverpod)
+
+### UI
+
+* DashboardPage
+* Widgets:
+
+  * DashboardHeader
+  * DashboardSummarySection
+  * CashflowHighlight
+  * RecentTransactionsPreview
+
+---
+
+## 🔐 Backend Integration
+
+* Integração com Supabase
+* Consumo da tabela `accounts`
+* Cálculo de saldo total
+* Preparado para integração com `transactions`
+
+---
+
+## ⚙️ Funcionalidades implementadas
+
+* Carregar dados do dashboard
+* Exibir saldo total do usuário
+* Exibir quantidade de contas
+* Estrutura de cashflow preparada
+* Preview de transações (placeholder)
+
+---
+
+## 🧠 Arquitetura aplicada
+
+Fluxo completo:
+
+UI → Controller → UseCase → Repository → DataSource → Supabase
+
+Separação clara:
+
+* UI desacoplada do backend
+* Domain independente
+* Data isolada
+
+---
+
+## 📊 Resultado
+
+* Dashboard funcional ✔️
+* Dados reais exibidos ✔️
+* Arquitetura escalável ✔️
+* Base pronta para evolução ✔️
+
+---
+
+## 🚀 Próximo passo
+
+Milestone 03:
+
+* Implementar módulo de transações (Transactions)
+* Integrar entradas e saídas reais no dashboard
+* Atualizar cashflow dinamicamente

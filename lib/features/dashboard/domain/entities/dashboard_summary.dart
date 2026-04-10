@@ -1,11 +1,11 @@
 class DashboardSummary {
   final double totalBalance;
-  final double monthlyIncome;
-  final double monthlyExpense;
+  final int accountsCount;
+  final List<Map<String, dynamic>> recentTransactions;
 
   const DashboardSummary({
     required this.totalBalance,
-    required this.monthlyIncome,
-    required this.monthlyExpense,
+    required this.accountsCount,
+    required this.recentTransactions,
   });
 }

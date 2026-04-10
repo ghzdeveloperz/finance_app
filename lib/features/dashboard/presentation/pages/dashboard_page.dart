@@ -1,34 +1,58 @@
 import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '../../../../app/router/route_names.dart';
-import '../../../../core/widgets/app_app_bar.dart';
-import '../../../../core/widgets/app_scaffold.dart';
-import '../../../../shared/widgets/buttons/app_icon_button.dart';
+import '../../providers/dashboard_providers.dart';
+import '../widgets/dashboard_header.dart';
+import '../widgets/dashboard_summary_section.dart';
+import '../widgets/cashflow_highlight.dart';
+import '../widgets/recent_transactions_preview.dart';
 
-class DashboardPage extends StatelessWidget {
+class DashboardPage extends ConsumerStatefulWidget {
   const DashboardPage({super.key});
 
-  Future<void> _logout(BuildContext context) async {
-    // logout real entra no próximo bloco se você quiser
-    context.go(RouteNames.signIn);
+  @override
+  ConsumerState<DashboardPage> createState() => _DashboardPageState();
+}
+
+class _DashboardPageState extends ConsumerState<DashboardPage> {
+  @override
+  void initState() {
+    super.initState();
+
+    Future.microtask(() async {
+      await ref.read(dashboardControllerProvider.notifier).load();
+    });
   }
 
   @override
   Widget build(BuildContext context) {
-    return AppScaffold(
-      appBar: AppAppBar(
-        title: 'Dashboard',
-        actions: [
-          AppIconActionButton(
-            icon: Icons.logout,
-            onPressed: () => _logout(context),
-          ),
-        ],
-      ),
-      body: const Center(
-        child: Text('Dashboard inicial'),
-      ),
+    final state = ref.watch(dashboardControllerProvider);
+
+    return Scaffold(
+      appBar: AppBar(title: const Text('Dashboard')),
+      body: state.isLoading
+          ? const Center(child: CircularProgressIndicator())
+          : RefreshIndicator(
+              onRefresh: () =>
+                  ref.read(dashboardControllerProvider.notifier).load(),
+              child: ListView(
+                padding: const EdgeInsets.all(16),
+                children: [
+                  DashboardHeader(total: state.totalBalance),
+                  const SizedBox(height: 16),
+                  DashboardSummarySection(
+                    total: state.totalBalance,
+                    accountsCount: state.accountsCount,
+                  ),
+                  const SizedBox(height: 16),
+                  const CashflowHighlight(),
+                  const SizedBox(height: 16),
+                  RecentTransactionsPreview(
+                    items: state.recentTransactions,
+                  ),
+                ],
+              ),
+            ),
     );
   }
 }
