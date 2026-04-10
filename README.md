@@ -472,3 +472,90 @@ flutter run
 
 ---
 
+# 🚀 Milestone 04 — Transactions Module (CRUD + Listagem)
+
+## 🎯 Objetivo
+Implementar o módulo completo de transações com integração real ao Supabase, permitindo criação, listagem e estrutura preparada para evolução futura (categorias, filtros, analytics).
+
+---
+
+## 🧱 Arquitetura implementada
+
+### 📦 Data Layer
+- Remote DataSource integrado ao Supabase (`transactions` table)
+- DTO para parsing de dados
+- Mapper DTO → Entity
+- Repository Implementation
+
+### 🧠 Domain Layer
+- Entity: `TransactionEntity`
+- Repository contract desacoplado
+- UseCases:
+  - `GetTransactionsUseCase`
+  - `GetTransactionDetailsUseCase`
+  - `CreateManualTransactionUseCase`
+  - `UpdateTransactionCategoryUseCase`
+  - `SyncTransactionsUseCase` (placeholder)
+
+### 🎨 Presentation Layer
+- Controller (StateNotifier + Riverpod)
+- State com loading + error handling
+- Pages:
+  - TransactionsPage (listagem)
+  - CreateTransactionPage (criação)
+  - TransactionDetailsPage (base)
+- Widgets:
+  - TransactionList
+  - TransactionRowItem
+  - TransactionFilterBar
+  - TransactionDateGroup
+
+### 🔌 Providers
+- Injeção completa com Riverpod
+- SupabaseClient centralizado
+- Controller conectado aos UseCases
+
+---
+
+## 🔐 Segurança
+- Todas as queries filtradas por `auth.uid()`
+- Compatível com RLS já configurado
+- Nenhum dado exposto entre usuários
+
+---
+
+## ✅ Funcionalidades entregues
+- Criar transação manual
+- Listar transações do usuário
+- Separação por tipo (entrada/saída)
+- Atualização automática da lista após criação
+- UI básica funcional
+
+---
+
+## 📊 Estado atual do app
+- Dashboard funcional
+- Accounts estruturado
+- Transactions funcional (CRUD base)
+
+---
+
+## ⚠️ Próximos passos recomendados (Milestone 05)
+- Integração Transactions → Dashboard (valores reais)
+- Filtros por data/categoria
+- Seleção real de conta (dropdown)
+- Categorias reais conectadas
+- UI premium (cards, gráficos)
+
+---
+
+## 🧠 Decisão técnica
+Arquitetura Clean + Feature-first mantida:
+- Alta escalabilidade
+- Fácil manutenção
+- Pronto pra produção SaaS
+
+---
+
+## 📌 Commit sugerido
+feat(transactions): implement full transactions module with supabase integration
