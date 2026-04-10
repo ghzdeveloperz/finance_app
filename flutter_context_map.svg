@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1370" height="2316" viewBox="0 0 1370 2316">
+<svg xmlns="http://www.w3.org/2000/svg" width="1370" height="2820" viewBox="0 0 1370 2820">
 <style>
 text { font-family: Inter, Segoe UI, Arial, sans-serif; font-size: 13px; fill: #e6edf3; }
 .folder { fill: #1f2937; stroke: #4b5563; stroke-width: 1; }
@@ -6,37 +6,44 @@ text { font-family: Inter, Segoe UI, Arial, sans-serif; font-size: 13px; fill: #
 .line { stroke: #6b7280; stroke-width: 1.5; fill: none; }
 .label-muted { fill: #93a4b8; font-size: 11px; }
 </style>
-<rect x="0" y="0" width="1370" height="2316" fill="#0b1220"/>
+<rect x="0" y="0" width="1370" height="2820" fill="#0b1220"/>
 <path class="line" d="M 250 58 C 274 58, 274 130, 300 130" />
 <path class="line" d="M 510 130 C 534 130, 534 202, 560 202" />
 <path class="line" d="M 770 202 C 794 202, 794 274, 820 274" />
 <path class="line" d="M 1030 274 C 1054 274, 1054 346, 1080 346" />
-<path class="line" d="M 770 202 C 794 202, 794 418, 820 418" />
-<path class="line" d="M 1030 418 C 1054 418, 1054 490, 1080 490" />
-<path class="line" d="M 770 202 C 794 202, 794 562, 820 562" />
-<path class="line" d="M 1030 562 C 1054 562, 1054 634, 1080 634" />
-<path class="line" d="M 770 202 C 794 202, 794 706, 820 706" />
-<path class="line" d="M 1030 706 C 1054 706, 1054 778, 1080 778" />
-<path class="line" d="M 510 130 C 534 130, 534 850, 560 850" />
-<path class="line" d="M 770 850 C 794 850, 794 922, 820 922" />
-<path class="line" d="M 1030 922 C 1054 922, 1054 994, 1080 994" />
-<path class="line" d="M 770 850 C 794 850, 794 1066, 820 1066" />
-<path class="line" d="M 1030 1066 C 1054 1066, 1054 1138, 1080 1138" />
-<path class="line" d="M 770 850 C 794 850, 794 1210, 820 1210" />
-<path class="line" d="M 1030 1210 C 1054 1210, 1054 1282, 1080 1282" />
-<path class="line" d="M 510 130 C 534 130, 534 1354, 560 1354" />
-<path class="line" d="M 770 1354 C 794 1354, 794 1426, 820 1426" />
-<path class="line" d="M 1030 1426 C 1054 1426, 1054 1498, 1080 1498" />
-<path class="line" d="M 1030 1426 C 1054 1426, 1054 1570, 1080 1570" />
-<path class="line" d="M 770 1354 C 794 1354, 794 1642, 820 1642" />
-<path class="line" d="M 1030 1642 C 1054 1642, 1054 1714, 1080 1714" />
-<path class="line" d="M 770 1354 C 794 1354, 794 1786, 820 1786" />
+<path class="line" d="M 1030 274 C 1054 274, 1054 418, 1080 418" />
+<path class="line" d="M 770 202 C 794 202, 794 490, 820 490" />
+<path class="line" d="M 1030 490 C 1054 490, 1054 562, 1080 562" />
+<path class="line" d="M 770 202 C 794 202, 794 634, 820 634" />
+<path class="line" d="M 1030 634 C 1054 634, 1054 706, 1080 706" />
+<path class="line" d="M 770 202 C 794 202, 794 778, 820 778" />
+<path class="line" d="M 1030 778 C 1054 778, 1054 850, 1080 850" />
+<path class="line" d="M 510 130 C 534 130, 534 922, 560 922" />
+<path class="line" d="M 770 922 C 794 922, 794 994, 820 994" />
+<path class="line" d="M 1030 994 C 1054 994, 1054 1066, 1080 1066" />
+<path class="line" d="M 770 922 C 794 922, 794 1138, 820 1138" />
+<path class="line" d="M 1030 1138 C 1054 1138, 1054 1210, 1080 1210" />
+<path class="line" d="M 770 922 C 794 922, 794 1282, 820 1282" />
+<path class="line" d="M 1030 1282 C 1054 1282, 1054 1354, 1080 1354" />
+<path class="line" d="M 1030 1282 C 1054 1282, 1054 1426, 1080 1426" />
+<path class="line" d="M 1030 1282 C 1054 1282, 1054 1498, 1080 1498" />
+<path class="line" d="M 1030 1282 C 1054 1282, 1054 1570, 1080 1570" />
+<path class="line" d="M 1030 1282 C 1054 1282, 1054 1642, 1080 1642" />
+<path class="line" d="M 510 130 C 534 130, 534 1714, 560 1714" />
+<path class="line" d="M 770 1714 C 794 1714, 794 1786, 820 1786" />
 <path class="line" d="M 1030 1786 C 1054 1786, 1054 1858, 1080 1858" />
 <path class="line" d="M 1030 1786 C 1054 1786, 1054 1930, 1080 1930" />
-<path class="line" d="M 1030 1786 C 1054 1786, 1054 2002, 1080 2002" />
-<path class="line" d="M 1030 1786 C 1054 1786, 1054 2074, 1080 2074" />
-<path class="line" d="M 510 130 C 534 130, 534 2146, 560 2146" />
-<path class="line" d="M 770 2146 C 794 2146, 794 2218, 820 2218" />
+<path class="line" d="M 770 1714 C 794 1714, 794 2002, 820 2002" />
+<path class="line" d="M 1030 2002 C 1054 2002, 1054 2074, 1080 2074" />
+<path class="line" d="M 1030 2002 C 1054 2002, 1054 2146, 1080 2146" />
+<path class="line" d="M 1030 2002 C 1054 2002, 1054 2218, 1080 2218" />
+<path class="line" d="M 770 1714 C 794 1714, 794 2290, 820 2290" />
+<path class="line" d="M 1030 2290 C 1054 2290, 1054 2362, 1080 2362" />
+<path class="line" d="M 1030 2290 C 1054 2290, 1054 2434, 1080 2434" />
+<path class="line" d="M 1030 2290 C 1054 2290, 1054 2506, 1080 2506" />
+<path class="line" d="M 1030 2290 C 1054 2290, 1054 2578, 1080 2578" />
+<path class="line" d="M 510 130 C 534 130, 534 2650, 560 2650" />
+<path class="line" d="M 770 2650 C 794 2650, 794 2722, 820 2722" />
 <g>
 <rect class="folder" x="40" y="40" rx="10" ry="10" width="210" height="36" />
 <text x="52" y="62">📁 features</text>
@@ -44,152 +51,187 @@ text { font-family: Inter, Segoe UI, Arial, sans-serif; font-size: 13px; fill: #
 </g>
 <g>
 <rect class="folder" x="300" y="112" rx="10" ry="10" width="210" height="36" />
-<text x="312" y="134">📁 dashboard</text>
-<text class="label-muted" x="312" y="164">features/dashboard</text>
+<text x="312" y="134">📁 transactions</text>
+<text class="label-muted" x="312" y="164">features/transactions</text>
 </g>
 <g>
 <rect class="folder" x="560" y="184" rx="10" ry="10" width="210" height="36" />
 <text x="572" y="206">📁 data</text>
-<text class="label-muted" x="572" y="236">features/dashboard/data</text>
+<text class="label-muted" x="572" y="236">features/transactions/data</text>
 </g>
 <g>
 <rect class="folder" x="820" y="256" rx="10" ry="10" width="210" height="36" />
 <text x="832" y="278">📁 datasources</text>
-<text class="label-muted" x="832" y="308">features/dashboard/data/datasources</text>
+<text class="label-muted" x="832" y="308">features/transactions/data/datasources</text>
 </g>
 <g>
 <rect class="file" x="1080" y="328" rx="10" ry="10" width="210" height="36" />
-<text x="1092" y="350">📄 dashboard_remote_datasource.dart</text>
-<text class="label-muted" x="1092" y="380">features/dashboard/data/datasources/dashboard_remote_datasource.dart</text>
+<text x="1092" y="350">📄 transactions_local_datasource.dart</text>
+<text class="label-muted" x="1092" y="380">features/transactions/data/datasources/transactions_local_datasource.dart</text>
 </g>
 <g>
-<rect class="folder" x="820" y="400" rx="10" ry="10" width="210" height="36" />
-<text x="832" y="422">📁 dtos</text>
-<text class="label-muted" x="832" y="452">features/dashboard/data/dtos</text>
+<rect class="file" x="1080" y="400" rx="10" ry="10" width="210" height="36" />
+<text x="1092" y="422">📄 transactions_remote_datasource.dart</text>
+<text class="label-muted" x="1092" y="452">features/transactions/data/datasources/transactions_remote_datasource.dart</text>
 </g>
 <g>
-<rect class="file" x="1080" y="472" rx="10" ry="10" width="210" height="36" />
-<text x="1092" y="494">📄 dashboard_summary_dto.dart</text>
-<text class="label-muted" x="1092" y="524">features/dashboard/data/dtos/dashboard_summary_dto.dart</text>
+<rect class="folder" x="820" y="472" rx="10" ry="10" width="210" height="36" />
+<text x="832" y="494">📁 dtos</text>
+<text class="label-muted" x="832" y="524">features/transactions/data/dtos</text>
 </g>
 <g>
-<rect class="folder" x="820" y="544" rx="10" ry="10" width="210" height="36" />
-<text x="832" y="566">📁 mappers</text>
-<text class="label-muted" x="832" y="596">features/dashboard/data/mappers</text>
+<rect class="file" x="1080" y="544" rx="10" ry="10" width="210" height="36" />
+<text x="1092" y="566">📄 transaction_dto.dart</text>
+<text class="label-muted" x="1092" y="596">features/transactions/data/dtos/transaction_dto.dart</text>
 </g>
 <g>
-<rect class="file" x="1080" y="616" rx="10" ry="10" width="210" height="36" />
-<text x="1092" y="638">📄 dashboard_summary_mapper.dart</text>
-<text class="label-muted" x="1092" y="668">features/dashboard/data/mappers/dashboard_summary_mapper.dart</text>
+<rect class="folder" x="820" y="616" rx="10" ry="10" width="210" height="36" />
+<text x="832" y="638">📁 mappers</text>
+<text class="label-muted" x="832" y="668">features/transactions/data/mappers</text>
 </g>
 <g>
-<rect class="folder" x="820" y="688" rx="10" ry="10" width="210" height="36" />
-<text x="832" y="710">📁 repositories</text>
-<text class="label-muted" x="832" y="740">features/dashboard/data/repositories</text>
+<rect class="file" x="1080" y="688" rx="10" ry="10" width="210" height="36" />
+<text x="1092" y="710">📄 transaction_mapper.dart</text>
+<text class="label-muted" x="1092" y="740">features/transactions/data/mappers/transaction_mapper.dart</text>
 </g>
 <g>
-<rect class="file" x="1080" y="760" rx="10" ry="10" width="210" height="36" />
-<text x="1092" y="782">📄 dashboard_repository_impl.dart</text>
-<text class="label-muted" x="1092" y="812">features/dashboard/data/repositories/dashboard_repository_impl.dart</text>
+<rect class="folder" x="820" y="760" rx="10" ry="10" width="210" height="36" />
+<text x="832" y="782">📁 repositories</text>
+<text class="label-muted" x="832" y="812">features/transactions/data/repositories</text>
 </g>
 <g>
-<rect class="folder" x="560" y="832" rx="10" ry="10" width="210" height="36" />
-<text x="572" y="854">📁 domain</text>
-<text class="label-muted" x="572" y="884">features/dashboard/domain</text>
+<rect class="file" x="1080" y="832" rx="10" ry="10" width="210" height="36" />
+<text x="1092" y="854">📄 transactions_repository_impl.dart</text>
+<text class="label-muted" x="1092" y="884">features/transactions/data/repositories/transactions_repository_impl.dart</text>
 </g>
 <g>
-<rect class="folder" x="820" y="904" rx="10" ry="10" width="210" height="36" />
-<text x="832" y="926">📁 entities</text>
-<text class="label-muted" x="832" y="956">features/dashboard/domain/entities</text>
+<rect class="folder" x="560" y="904" rx="10" ry="10" width="210" height="36" />
+<text x="572" y="926">📁 domain</text>
+<text class="label-muted" x="572" y="956">features/transactions/domain</text>
 </g>
 <g>
-<rect class="file" x="1080" y="976" rx="10" ry="10" width="210" height="36" />
-<text x="1092" y="998">📄 dashboard_summary.dart</text>
-<text class="label-muted" x="1092" y="1028">features/dashboard/domain/entities/dashboard_summary.dart</text>
+<rect class="folder" x="820" y="976" rx="10" ry="10" width="210" height="36" />
+<text x="832" y="998">📁 entities</text>
+<text class="label-muted" x="832" y="1028">features/transactions/domain/entities</text>
 </g>
 <g>
-<rect class="folder" x="820" y="1048" rx="10" ry="10" width="210" height="36" />
-<text x="832" y="1070">📁 repositories</text>
-<text class="label-muted" x="832" y="1100">features/dashboard/domain/repositories</text>
+<rect class="file" x="1080" y="1048" rx="10" ry="10" width="210" height="36" />
+<text x="1092" y="1070">📄 transaction_entity.dart</text>
+<text class="label-muted" x="1092" y="1100">features/transactions/domain/entities/transaction_entity.dart</text>
 </g>
 <g>
-<rect class="file" x="1080" y="1120" rx="10" ry="10" width="210" height="36" />
-<text x="1092" y="1142">📄 dashboard_repository.dart</text>
-<text class="label-muted" x="1092" y="1172">features/dashboard/domain/repositories/dashboard_repository.dart</text>
+<rect class="folder" x="820" y="1120" rx="10" ry="10" width="210" height="36" />
+<text x="832" y="1142">📁 repositories</text>
+<text class="label-muted" x="832" y="1172">features/transactions/domain/repositories</text>
 </g>
 <g>
-<rect class="folder" x="820" y="1192" rx="10" ry="10" width="210" height="36" />
-<text x="832" y="1214">📁 usecases</text>
-<text class="label-muted" x="832" y="1244">features/dashboard/domain/usecases</text>
+<rect class="file" x="1080" y="1192" rx="10" ry="10" width="210" height="36" />
+<text x="1092" y="1214">📄 transactions_repository.dart</text>
+<text class="label-muted" x="1092" y="1244">features/transactions/domain/repositories/transactions_repository.dart</text>
 </g>
 <g>
-<rect class="file" x="1080" y="1264" rx="10" ry="10" width="210" height="36" />
-<text x="1092" y="1286">📄 get_dashboard_summary_usecase.dart</text>
-<text class="label-muted" x="1092" y="1316">features/dashboard/domain/usecases/get_dashboard_summary_usecase.dart</text>
+<rect class="folder" x="820" y="1264" rx="10" ry="10" width="210" height="36" />
+<text x="832" y="1286">📁 usecases</text>
+<text class="label-muted" x="832" y="1316">features/transactions/domain/usecases</text>
 </g>
 <g>
-<rect class="folder" x="560" y="1336" rx="10" ry="10" width="210" height="36" />
-<text x="572" y="1358">📁 presentation</text>
-<text class="label-muted" x="572" y="1388">features/dashboard/presentation</text>
+<rect class="file" x="1080" y="1336" rx="10" ry="10" width="210" height="36" />
+<text x="1092" y="1358">📄 create_manual_transaction_usecase.dart</text>
+<text class="label-muted" x="1092" y="1388">features/transactions/domain/usecases/create_manual_transaction_usecase.dart</text>
 </g>
 <g>
-<rect class="folder" x="820" y="1408" rx="10" ry="10" width="210" height="36" />
-<text x="832" y="1430">📁 controllers</text>
-<text class="label-muted" x="832" y="1460">features/dashboard/presentation/controllers</text>
+<rect class="file" x="1080" y="1408" rx="10" ry="10" width="210" height="36" />
+<text x="1092" y="1430">📄 get_transaction_details_usecase.dart</text>
+<text class="label-muted" x="1092" y="1460">features/transactions/domain/usecases/get_transaction_details_usecase.dart</text>
 </g>
 <g>
 <rect class="file" x="1080" y="1480" rx="10" ry="10" width="210" height="36" />
-<text x="1092" y="1502">📄 dashboard_controller.dart</text>
-<text class="label-muted" x="1092" y="1532">features/dashboard/presentation/controllers/dashboard_controller.dart</text>
+<text x="1092" y="1502">📄 get_transactions_usecase.dart</text>
+<text class="label-muted" x="1092" y="1532">features/transactions/domain/usecases/get_transactions_usecase.dart</text>
 </g>
 <g>
 <rect class="file" x="1080" y="1552" rx="10" ry="10" width="210" height="36" />
-<text x="1092" y="1574">📄 dashboard_state.dart</text>
-<text class="label-muted" x="1092" y="1604">features/dashboard/presentation/controllers/dashboard_state.dart</text>
+<text x="1092" y="1574">📄 sync_transactions_usecase.dart</text>
+<text class="label-muted" x="1092" y="1604">features/transactions/domain/usecases/sync_transactions_usecase.dart</text>
 </g>
 <g>
-<rect class="folder" x="820" y="1624" rx="10" ry="10" width="210" height="36" />
-<text x="832" y="1646">📁 pages</text>
-<text class="label-muted" x="832" y="1676">features/dashboard/presentation/pages</text>
+<rect class="file" x="1080" y="1624" rx="10" ry="10" width="210" height="36" />
+<text x="1092" y="1646">📄 update_transaction_category_usecase.dart</text>
+<text class="label-muted" x="1092" y="1676">features/transactions/domain/usecases/update_transaction_category_usecase.dart</text>
 </g>
 <g>
-<rect class="file" x="1080" y="1696" rx="10" ry="10" width="210" height="36" />
-<text x="1092" y="1718">📄 dashboard_page.dart</text>
-<text class="label-muted" x="1092" y="1748">features/dashboard/presentation/pages/dashboard_page.dart</text>
+<rect class="folder" x="560" y="1696" rx="10" ry="10" width="210" height="36" />
+<text x="572" y="1718">📁 presentation</text>
+<text class="label-muted" x="572" y="1748">features/transactions/presentation</text>
 </g>
 <g>
 <rect class="folder" x="820" y="1768" rx="10" ry="10" width="210" height="36" />
-<text x="832" y="1790">📁 widgets</text>
-<text class="label-muted" x="832" y="1820">features/dashboard/presentation/widgets</text>
+<text x="832" y="1790">📁 controllers</text>
+<text class="label-muted" x="832" y="1820">features/transactions/presentation/controllers</text>
 </g>
 <g>
 <rect class="file" x="1080" y="1840" rx="10" ry="10" width="210" height="36" />
-<text x="1092" y="1862">📄 cashflow_highlight.dart</text>
-<text class="label-muted" x="1092" y="1892">features/dashboard/presentation/widgets/cashflow_highlight.dart</text>
+<text x="1092" y="1862">📄 transactions_controller.dart</text>
+<text class="label-muted" x="1092" y="1892">features/transactions/presentation/controllers/transactions_controller.dart</text>
 </g>
 <g>
 <rect class="file" x="1080" y="1912" rx="10" ry="10" width="210" height="36" />
-<text x="1092" y="1934">📄 dashboard_header.dart</text>
-<text class="label-muted" x="1092" y="1964">features/dashboard/presentation/widgets/dashboard_header.dart</text>
+<text x="1092" y="1934">📄 transactions_state.dart</text>
+<text class="label-muted" x="1092" y="1964">features/transactions/presentation/controllers/transactions_state.dart</text>
 </g>
 <g>
-<rect class="file" x="1080" y="1984" rx="10" ry="10" width="210" height="36" />
-<text x="1092" y="2006">📄 dashboard_summary_section.dart</text>
-<text class="label-muted" x="1092" y="2036">features/dashboard/presentation/widgets/dashboard_summary_section.dart</text>
+<rect class="folder" x="820" y="1984" rx="10" ry="10" width="210" height="36" />
+<text x="832" y="2006">📁 pages</text>
+<text class="label-muted" x="832" y="2036">features/transactions/presentation/pages</text>
 </g>
 <g>
 <rect class="file" x="1080" y="2056" rx="10" ry="10" width="210" height="36" />
-<text x="1092" y="2078">📄 recent_transactions_preview.dart</text>
-<text class="label-muted" x="1092" y="2108">features/dashboard/presentation/widgets/recent_transactions_preview.dart</text>
+<text x="1092" y="2078">📄 create_transaction_page.dart</text>
+<text class="label-muted" x="1092" y="2108">features/transactions/presentation/pages/create_transaction_page.dart</text>
 </g>
 <g>
-<rect class="folder" x="560" y="2128" rx="10" ry="10" width="210" height="36" />
-<text x="572" y="2150">📁 providers</text>
-<text class="label-muted" x="572" y="2180">features/dashboard/providers</text>
+<rect class="file" x="1080" y="2128" rx="10" ry="10" width="210" height="36" />
+<text x="1092" y="2150">📄 transaction_details_page.dart</text>
+<text class="label-muted" x="1092" y="2180">features/transactions/presentation/pages/transaction_details_page.dart</text>
 </g>
 <g>
-<rect class="file" x="820" y="2200" rx="10" ry="10" width="210" height="36" />
-<text x="832" y="2222">📄 dashboard_providers.dart</text>
-<text class="label-muted" x="832" y="2252">features/dashboard/providers/dashboard_providers.dart</text>
+<rect class="file" x="1080" y="2200" rx="10" ry="10" width="210" height="36" />
+<text x="1092" y="2222">📄 transactions_page.dart</text>
+<text class="label-muted" x="1092" y="2252">features/transactions/presentation/pages/transactions_page.dart</text>
+</g>
+<g>
+<rect class="folder" x="820" y="2272" rx="10" ry="10" width="210" height="36" />
+<text x="832" y="2294">📁 widgets</text>
+<text class="label-muted" x="832" y="2324">features/transactions/presentation/widgets</text>
+</g>
+<g>
+<rect class="file" x="1080" y="2344" rx="10" ry="10" width="210" height="36" />
+<text x="1092" y="2366">📄 transaction_date_group.dart</text>
+<text class="label-muted" x="1092" y="2396">features/transactions/presentation/widgets/transaction_date_group.dart</text>
+</g>
+<g>
+<rect class="file" x="1080" y="2416" rx="10" ry="10" width="210" height="36" />
+<text x="1092" y="2438">📄 transaction_filter_bar.dart</text>
+<text class="label-muted" x="1092" y="2468">features/transactions/presentation/widgets/transaction_filter_bar.dart</text>
+</g>
+<g>
+<rect class="file" x="1080" y="2488" rx="10" ry="10" width="210" height="36" />
+<text x="1092" y="2510">📄 transaction_list.dart</text>
+<text class="label-muted" x="1092" y="2540">features/transactions/presentation/widgets/transaction_list.dart</text>
+</g>
+<g>
+<rect class="file" x="1080" y="2560" rx="10" ry="10" width="210" height="36" />
+<text x="1092" y="2582">📄 transaction_row_item.dart</text>
+<text class="label-muted" x="1092" y="2612">features/transactions/presentation/widgets/transaction_row_item.dart</text>
+</g>
+<g>
+<rect class="folder" x="560" y="2632" rx="10" ry="10" width="210" height="36" />
+<text x="572" y="2654">📁 providers</text>
+<text class="label-muted" x="572" y="2684">features/transactions/providers</text>
+</g>
+<g>
+<rect class="file" x="820" y="2704" rx="10" ry="10" width="210" height="36" />
+<text x="832" y="2726">📄 transactions_providers.dart</text>
+<text class="label-muted" x="832" y="2756">features/transactions/providers/transactions_providers.dart</text>
 </g>
 </svg>

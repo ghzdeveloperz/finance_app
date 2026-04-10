@@ -325,8 +325,150 @@ Separação clara:
 
 ## 🚀 Próximo passo
 
-Milestone 03:
+
+# 🚀 Milestone 03 — Logo System + Adaptive Branding (Dark/Light)
+
+## 🎯 Objetivo
+
+Implementar sistema de logo adaptativo (dark/light) dentro do app e padronizar uso de assets visuais.
+
+---
+
+## ✅ O que foi feito
+
+### 🖼️ 1. Padronização de logos
+
+* Definido uso de duas versões:
+
+  * `logo_dark.png` → para tema escuro
+  * `logo_light.png` → para tema claro
+
+📁 Local:
+
+```
+assets/images/
+```
+
+---
+
+### 🧩 2. Criação de widget reutilizável de logo
+
+📁 Novo arquivo:
+
+```
+lib/shared/widgets/logo/app_logo.dart
+```
+
+### Implementação:
+
+```dart
+import 'package:flutter/material.dart';
+
+class AppLogo extends StatelessWidget {
+  final double size;
+
+  const AppLogo({
+    super.key,
+    this.size = 120,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final isDark = Theme.of(context).brightness == Brightness.dark;
+
+    return Image.asset(
+      isDark
+          ? 'assets/images/logo_dark.png'
+          : 'assets/images/logo_light.png',
+      width: size,
+    );
+  }
+}
+```
+
+---
+
+### 🔁 3. Integração nas telas principais
+
+* Splash
+* Auth (login/signup)
+* Dashboard (header)
+
+Uso:
+
+```dart
+AppLogo(size: 120)
+```
+
+---
+
+### ⚙️ 4. Atualização do pubspec.yaml
+
+* Ícone do app configurado com versão `logo_light.png`
+* Splash configurado com `logo_dark.png`
+* Assets organizados corretamente
+
+```yaml
+flutter_launcher_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/images/logo_light.png"
+
+flutter_native_splash:
+  color: "#000000"
+  image: assets/images/logo_dark.png
+  android_12:
+    image: assets/images/logo_dark.png
+    color: "#000000"
+```
+
+---
+
+## 🧠 Decisões de arquitetura
+
+* Separação entre:
+
+  * Logo de UI (adaptativa)
+  * Logo de sistema (ícone fixo)
+* Centralização via widget reutilizável (`AppLogo`)
+* Compatibilidade total com Dark/Light mode
+
+---
+
+## ⚠️ Observações
+
+* Ícone do app NÃO reage a tema (comportamento do sistema)
+* Logo adaptativa resolve contraste dentro do app
+* Assets devem manter proporção e padding consistentes
+
+---
+
+## 📦 Comandos utilizados
+
+```bash
+flutter clean
+flutter pub get
+dart run flutter_launcher_icons
+dart run flutter_native_splash:create
+flutter run
+```
+
+---
+
+## ✅ Resultado
+
+* UI consistente em dark/light mode
+* Branding mais profissional
+* Base pronta para evolução de design system
+
+---
+
+## 🔜 Próximo passo sugerido (Milestone 04)
 
 * Implementar módulo de transações (Transactions)
 * Integrar entradas e saídas reais no dashboard
 * Atualizar cashflow dinamicamente
+
+---
+

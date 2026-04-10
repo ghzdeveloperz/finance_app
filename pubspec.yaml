@@ -19,12 +19,34 @@ dependencies:
   connectivity_plus: ^6.0.5
   intl: ^0.19.0
 
+  # UI / UX
+  flutter_svg: ^2.0.10+1
+
+  # Icons + Splash
+  flutter_launcher_icons: ^0.14.4
+  flutter_native_splash: ^2.4.7
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
   flutter_lints: ^4.0.0
   mocktail: ^1.0.4
+
+# 🔥 CONFIG ÍCONE DO APP
+flutter_launcher_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/images/logo_light.png"
+
+# 🔥 CONFIG SPLASH SCREEN
+flutter_native_splash:
+  color: "#000000"
+  image: assets/images/logo_dark.png
+  android_12:
+    image: assets/images/logo_dark.png
+    color: "#000000"
 
 flutter:
   uses-material-design: true
